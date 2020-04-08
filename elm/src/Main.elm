@@ -1,4 +1,7 @@
-module Main exposing(init)
+module Main exposing (init)
 
-init: String
-init = "String"
+-- init: String
+
+
+init =
+    "String"
