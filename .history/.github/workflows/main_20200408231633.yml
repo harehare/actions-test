@@ -7,7 +7,8 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-      - uses: harehare/elm-action@v1.0.11
+      - uses: harehare/elm-action@v1.0.3
+        working-directory: ./elm
         with:
           elm-version: "0.19.1"
           command: analyse
