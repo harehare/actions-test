@@ -13,5 +13,5 @@ jobs:
       - uses: harehare/elm-action@v1.0.26
         with:
           elm-version: "0.19.1"
-          run: analyse
+          run: make
           working_directory: ./elm1
