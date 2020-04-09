@@ -9,3 +9,6 @@ init =
 
 init2 =
     "String"
+
+init3 =
+    "String"
