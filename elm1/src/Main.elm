@@ -12,3 +12,6 @@ init2 =
 
 init3 =
     "String"
+
+init4 =
+    "String"
