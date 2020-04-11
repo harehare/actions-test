@@ -1,5 +1,8 @@
 name: build
-on: push
+on:
+  pull_request:
+    types: [opened, synchronize]
+
 jobs:
   build:
     name: build
@@ -7,8 +10,6 @@ jobs:
     steps:
       - name: Checkout Repo
         uses: actions/checkout@master
-      - uses: harehare/elm-action@v1.0.22
+      - uses: harehare/elm-action@v1.0.27
         with:
-          elm-version: "0.19.1"
-          run: analyse
           working_directory: ./elm1
